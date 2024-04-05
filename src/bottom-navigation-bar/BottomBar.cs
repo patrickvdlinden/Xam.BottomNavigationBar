@@ -1957,10 +1957,6 @@ namespace BottomNavigationBar
             {
                 return;
             }
-
-            if (Build.VERSION.SdkInt < Build.VERSION_CODES.JellyBeanMr1 && 
-                (!(softMenuIdentifier > 0 && res.GetBoolean(softMenuIdentifier))))
-                return;
             
             /* Copy-paste coding made possible by: http://stackoverflow.com/a/14871974/940036 */
             if (Build.VERSION.SdkInt >= BuildVersionCodes.JellyBeanMr1)
